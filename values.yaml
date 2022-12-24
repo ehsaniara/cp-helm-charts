@@ -52,7 +52,7 @@ cp-kafka:
   heapOptions: "-Xms256M -Xmx256M"
   persistence:
     enabled: true
-    # storageClass: ""
+    storageClass: manual
     size: 5Gi
     disksPerBroker: 1
   resources: {}
