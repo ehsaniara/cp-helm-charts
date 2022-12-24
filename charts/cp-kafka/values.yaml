@@ -83,7 +83,8 @@ persistence:
   disksPerBroker: 1
 
 ## Kafka JVM Heap Option
-heapOptions: "-Xms512M -Xmx512M"
+#heapOptions: "-Xms512M -Xmx512M"
+heapOptions: "-Xms256M -Xmx256M"
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious
